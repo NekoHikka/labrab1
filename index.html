@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота 1 - Варіант 4</title>
+</head>
+<body>
+    <header>
+        <h1>Інформація для студентів</h1>
+    </header>
+
+    <main>
+        <!-- Таблица менделя -->
+        <section>
+            <h2>Дисципліни 3-го курсу</h2>
+            <dl>
+                <dt>Internet-технологii</dt>
+                <dd>Вивчення HTML, CSS, JavaScript, PHP</dd>
+
+                <dt>Системне програмне забезпечення</dt>
+                <dd>Драйвери Windows PowerShell 2.0 WINDOWS API, </dd>
+
+                <dt>Архітектура комп'ютерів</dt>
+                <dd>Кеш-пам'ять ,Прикладний рівень CPU x86-64, FPU x87</dd>
+
+                <dt>Комп'ютерна схемотехніка</dt>
+                <dd>VHDL-моделі</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Фрагмент періодичної системи</h2>
+            <table border="1">
+                <tr>
+                    <th>Період</th>
+                    <th>I A</th>
+                    <th>II A</th>
+                    <th>III A</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>H<br>1.008</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Li<br>6.941</td>
+                    <td>Be<br>9.012</td>
+                    <td>B<br>10.811</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Na<br>22.990</td>
+                    <td>Mg<br>24.305</td>
+                    <td>Al<br>26.982</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- ПК компоненти -->
+        <section>
+            <h2>Форма введення комплектуючих ПК</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Основні компоненти</legend>
+                    
+                    <label for="processor">Процесор:</label>
+                    <input type="text" id="processor" name="processor" required><br><br>
+                    
+                    <label for="motherboard">Материнська плата:</label>
+                    <input type="text" id="motherboard" name="motherboard" required><br><br>
+                    
+                    <label for="ram">Оперативна пам'ять:</label>
+                    <select id="ram" name="ram">
+                        <option value="8">8 ГБ</option>
+                        <option value="16">16 ГБ</option>
+                        <option value="32">32 ГБ</option>
+                        <option value="64">64 ГБ</option>
+                    </select><br><br>
+                    
+                    <label for="storage">Накопичувач:</label>
+                    <input type="radio" id="ssd" name="storage" value="ssd">
+                    <label for="ssd">SSD</label>
+                    <input type="radio" id="hdd" name="storage" value="hdd">
+                    <label for="hdd">HDD</label><br><br>
+                    
+                    <label for="gpu">Відеокарта:</label>
+                    <input type="text" id="gpu" name="gpu"><br><br>
+                    
+                    <button type="submit">Відправити</button>
+                </fieldset>
+            </form>
+        </section>
+
+		<!-- Карта зображення -->
+		<section>
+			<h2>Корисні посилання</h2>
+			<img src="hnure_image.jpg" alt="Навігатор" usemap="#navigation" width="400" height="300">
+			<map name="navigation">
+				<area shape="rect" coords="0,0,133,300" href="https://nure.ua/" alt="Сайт університету">
+				<area shape="rect" coords="134,0,266,300" href="https://csd.nure.ua/" alt="Сайт кафедри">
+				<area shape="rect" coords="267,0,400,300" href="https://cist.nure.ua/ias/app/tt/f?p=778:2:3858003405559096" alt="Розклад">
+			</map>
+		</section>	
+    </main>`
+</body>
+</html>
